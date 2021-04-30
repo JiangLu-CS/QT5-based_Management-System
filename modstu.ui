@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modstu</class>
+ <widget class="QWidget" name="modstu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="2" colspan="2">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>专业号</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLineEdit" name="name"/>
+   </item>
+   <item row="5" column="2" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>年龄</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>性别</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="no"/>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QLineEdit" name="age"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QRadioButton" name="mod">
+     <property name="text">
+      <string>修改学生</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QLineEdit" name="sex"/>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QLineEdit" name="dorm"/>
+   </item>
+   <item row="16" column="0" colspan="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QRadioButton" name="add">
+     <property name="text">
+      <string>增加学生</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QLineEdit" name="major"/>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>宿舍号</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>学生姓名</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>学号</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QRadioButton" name="del">
+     <property name="text">
+      <string>删除学生</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2" rowspan="3">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;请注意：&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;1.增加学生需输入学生的所有信息,但不用输入学号(学号由系统自行生成)。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2.删除学生请输入学号。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;3.修改学生请输入学生的学号，和需要修改的字段的内容（其他的内容不用输入，一次可输入多个需要修改的字段）。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4.学生初始密码为：123456&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="2">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QRadioButton" name="find">
+     <property name="text">
+      <string>查找学生</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
